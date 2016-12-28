@@ -1,0 +1,109 @@
+body {
+  background: #d5d5d5;
+  margin: 0;
+  font-family: Roboto;
+}
+h1 {
+  color: #214e7a;
+}
+#app-container {
+  width: 100%;
+  overflow: hidden;
+}
+#app-header {
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  background: #202020;
+  text-align: center;
+  z-index: 10;
+}
+#app-header h1 {
+  line-height: 10vh;
+  margin: 0;
+  color: #fff;
+}
+#app-header h1 .danger {
+  color: #f00;
+}
+#app-body {
+  padding-top: 15vh;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 75vh;
+}
+#app-body .search-form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+#app-body .search-form input[type='text'] {
+  padding: 12px 16px;
+}
+#app-footer {
+  width: 100%;
+  min-height: 10vh;
+}
+#app-footer p {
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid #7f8c8d;
+}
+.centro {
+  text-align: center;
+  color: #ff0;
+  font-size: 20px;
+}
+.tv-show {
+  width: 100%;
+  overflow: hidden;
+  padding: 16px;
+  background: #fff;
+  margin-bottom: 16px;
+  position: relative;
+}
+.tv-show:hover {
+  background: #ecf0f1;
+}
+.tv-show .liked {
+  background: #e08283;
+}
+.tv-show .liked:hover {
+  background: #f1a9a0;
+}
+.tv-show .liked button.like {
+  font-size: 40px;
+}
+.tv-show img {
+  max-width: 100%;
+}
+.tv-show button.like {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.tv-show .info {
+  width: 75%;
+}
+.tv-show .img-container {
+  width: 20%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.azul {
+  background: #214e7a;
+}
